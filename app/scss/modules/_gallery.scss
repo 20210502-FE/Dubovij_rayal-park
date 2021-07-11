@@ -1,0 +1,42 @@
+.gallery{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 140px;
+    &__column{
+        width: 555px;
+        padding: 0 15px;
+        margin-bottom: 18.5px;
+        margin-top: 18.5px;
+    }
+    &__heading{
+        margin-top: 47px;
+       margin-bottom: 50px; 
+    }
+    &__content{
+        max-width: 439px;
+        margin-bottom: 30px;
+    }
+    &__column-inner{
+        bottom: 0;
+        width: 231px;
+        height: 126px;
+        background-color: $color-concrete;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);  
+    }
+    &__wrap{
+        margin-top: 23px;
+        margin-bottom: 28px;
+        margin-left: 20px;
+    }
+    &__img-text{
+        font-family: $font-roboto500;
+        font-size: 18px;
+        line-height: 160%;
+    
+    }
+    &__prise{
+        font-family: $font-roboto400;
+        font-size: 12px;
+    }
+}

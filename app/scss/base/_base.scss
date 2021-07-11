@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    min-height: 100%;
+    background-color: $color-mercury;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.wrap-content{
+    width: calc(100% - 460px);
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    &__column{
+        flex-direction: column;
+    }
+    &__space-between{
+        justify-content: space-between;
+    }
+    &__space-around{
+        justify-content: space-around;
+    }
+    &__center{
+        justify-content: center;
+    }
+    &__wrap{
+        flex-wrap: wrap;
+    }
+    &__justify-content-center{
+        justify-content: center;
+    }
+    &__align-items-center{
+        align-items: center;
+    }
+}
+
+.relative{
+position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.logo{
+    width: 144px;
+    align-self: start;
+    margin-left: -15px;
+}
+
+.subtitle{
+    font-family: $font-roboto500;
+    font-size: 20px;
+    color: $color-denim;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.title{
+    font-family: $font-gelasio600;
+    font-size: 57px;
+    line-height: 120%;
+    color: $color-black-pearl;
+    &__blue{
+        color: $color-denim;
+    }
+}
+
+.content{
+    font-family: $font-roboto400;
+    font-size: 18px;
+    line-height: 160%;
+    &_opacity6{
+        color: $color-black-pearl_opaciyt6;  
+    }
+    &_opacity7{
+        color: $color-black-pearl_opaciyt7;
+    }
+    &_opacity8{
+        color: $color-black-pearl_opaciyt8;
+    }
+    &_opacity9{
+        color: $color-black-pearl_opaciyt9;
+    }
+}
+
+.heading{
+    font-family: $font-gelasio500;
+    font-size: 32px;
+    line-height: 140%;
+    color: $color-black-pearl;
+    &__24px{
+        font-size: 24px;
+    }
+}
+
+.form{
+    position: relative;
+    &__input{
+        height: 54px;
+        width: 100%;
+        padding: 15px 170px 15px 30px;
+        border: 1px solid $color-mercury;
+        border-radius: 5px;
+        font-family: $font-poppins400;
+        font-size: 16px;
+        color: $color-black-pearl_opaciyt6;
+    }
+    &__button{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 164px;
+        height: 54px;
+        padding: 15px 20px;
+        background-color: $color-denim;
+        font-family: $font-poppins500;
+        font-size: 16px;
+        color: $color-white;
+        border-radius: 5px;
+    }
+}

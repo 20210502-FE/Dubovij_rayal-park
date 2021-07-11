@@ -1,0 +1,55 @@
+footer{
+    padding-bottom: 145px;
+    background-color: $color-gray;
+}
+
+.footer{
+    color: $color-black-pearl_opaciyt7;
+   &__wrap{
+       margin-right: 230px;
+       margin-left: 189px;
+   }
+   &__column{
+         margin-right: 76px;
+    }
+    &__content{
+        max-width: 257px;
+        font-family: $font-poppins500;
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: -35px;
+        margin-bottom: 30px;
+    }
+    &__email{
+        font-family: $font-poppins400;
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: $color-black-pearl_opaciyt7;
+    }
+    &__socials{
+        margin-top: 15px;
+    }
+    &__link{
+        margin-right: 26px;
+    }
+    &__socials-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.column{
+    margin-top: 40px;
+    margin-right: 76px;
+    &__heading{
+        margin-bottom: 30px;
+    }
+    &__item{
+        margin-bottom: 20px;
+    }
+    &__link{
+        font-family: $font-poppins500;
+        font-size: 16px;
+        color: $color-black-pearl_opaciyt7;
+    }
+}

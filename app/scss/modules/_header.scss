@@ -1,0 +1,57 @@
+.header-banner{
+    background-image: url(../assets/images/header-baner.png);
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+    margin-bottom: 210px;
+    &__subtitle{
+        margin-bottom: 15px;
+    }
+    &__title{
+        width: 456px;
+        margin-bottom: 25px;
+    }
+    &__content{
+        max-width: 347px;
+        margin-bottom: 45px;
+    }
+}
+.header{
+    padding-bottom: 125px;
+    .top-nav{
+        &__list{
+            display: flex;
+            justify-content: space-between;
+        }
+        &__link{
+            font-family: $font-gelasio500;
+            color: $color-black-pearl;
+            font-size: 16px;
+            line-height: 24px;
+            margin-right: 40px;
+            &:hover{
+                color: $color-denim;
+            }
+        }
+    }
+}
+
+.find-room{
+    bottom: -55px;
+    min-width: 687px;
+    background-color: $color-white_opacity;
+    padding: 24px 49px;
+    border-radius: 10px;
+    &__text-heder{
+        font-family: $font-roboto500;
+        font-size: 16px;
+        color: $color-black-pearl;
+        margin-bottom: 10px;
+    }
+    &__text-bottom{
+      font-family: $font-roboto400;
+      font-size: 16px;
+      color: $color-black-pearl_opaciyt8;  
+    }
+}
